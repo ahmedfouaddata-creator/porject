@@ -1,4 +1,4 @@
-select * FROM company_dim LIMIT 5;
-select * FROM job_posting_fact LIMIT 5;
-select * FROM skills_dim LIMIT 5;
-select * FROM skills_job_dim LIMIT 5;
+select * FROM company_dim ;
+select * FROM job_postings_fact ;
+select * FROM skills_dim ;
+select * FROM skills_job_dim;

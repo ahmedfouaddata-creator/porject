@@ -37,7 +37,6 @@ COPY job_postings_fact
 FROM 'D:\sql\porject\csv_files\job_postings_fact.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-
 COPY skills_job_dim
 FROM 'D:\sql\porject\csv_files\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
